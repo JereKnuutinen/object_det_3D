@@ -1,0 +1,94 @@
+[0.016s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node -- -j12 -l12
+[0.041s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.060s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.236s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.268s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.397s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.398s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.521s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[0.854s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.872s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.877s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.877s] ** WARNING ** io features related to pcap will be disabled
+[0.877s] ** WARNING ** io features related to png will be disabled
+[0.928s] -- The imported target "vtkParseOGLExt" references the file
+[0.929s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.929s] but this file does not exist.  Possible reasons include:
+[0.929s] * The file was deleted, renamed, or moved to another location.
+[0.929s] * An install or uninstall procedure did not complete successfully.
+[0.929s] * The installation package was faulty and contained
+[0.929s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.929s] but not all the files it references.
+[0.929s] 
+[0.930s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.930s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.930s] but this file does not exist.  Possible reasons include:
+[0.930s] * The file was deleted, renamed, or moved to another location.
+[0.930s] * An install or uninstall procedure did not complete successfully.
+[0.930s] * The installation package was faulty and contained
+[0.930s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.930s] but not all the files it references.
+[0.930s] 
+[0.930s] -- The imported target "vtk" references the file
+[0.930s]    "/usr/bin/vtk"
+[0.930s] but this file does not exist.  Possible reasons include:
+[0.931s] * The file was deleted, renamed, or moved to another location.
+[0.931s] * An install or uninstall procedure did not complete successfully.
+[0.931s] * The installation package was faulty and contained
+[0.931s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.931s] but not all the files it references.
+[0.931s] 
+[0.931s] -- The imported target "pvtk" references the file
+[0.931s]    "/usr/bin/pvtk"
+[0.931s] but this file does not exist.  Possible reasons include:
+[0.931s] * The file was deleted, renamed, or moved to another location.
+[0.931s] * An install or uninstall procedure did not complete successfully.
+[0.931s] * The installation package was faulty and contained
+[0.931s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.931s] but not all the files it references.
+[0.931s] 
+[0.944s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.944s] -- looking for PCL_COMMON
+[0.945s] -- looking for PCL_OCTREE
+[0.945s] -- looking for PCL_IO
+[0.946s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.179s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.289s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.341s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.342s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.342s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/include>
+[1.342s] -- Configured cppcheck exclude dirs and/or files: 
+[1.343s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.343s] -- Configured cpplint exclude dirs and/or files: 
+[1.344s] -- Added test 'lint_cmake' to check CMake code style
+[1.344s] -- Added test 'uncrustify' to check C / C++ code style
+[1.345s] -- Configured uncrustify additional arguments: 
+[1.345s] -- Added test 'xmllint' to check XML markup files
+[1.348s] -- Configuring done
+[1.375s] -- Generating done
+[1.377s] -- Build files have been written to: /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node
+[1.424s] [ 50%] [32m[1mLinking CXX executable gnss_pose_estimation_node[0m
+[1.579s] [100%] Built target gnss_pose_estimation_node
+[1.589s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node -- -j12 -l12
+[1.609s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node
+[1.617s] -- Install configuration: "Release"
+[1.617s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/lib/gnss_pose_estimation_node/gnss_pose_estimation_node
+[1.618s] -- Set runtime path of "/home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/lib/gnss_pose_estimation_node/gnss_pose_estimation_node" to ""
+[1.618s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/package_run_dependencies/gnss_pose_estimation_node
+[1.618s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/parent_prefix_path/gnss_pose_estimation_node
+[1.618s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/ament_prefix_path.sh
+[1.618s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/ament_prefix_path.dsv
+[1.618s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/path.sh
+[1.619s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/path.dsv
+[1.619s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.bash
+[1.619s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.sh
+[1.619s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.zsh
+[1.619s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.dsv
+[1.619s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/package.dsv
+[1.619s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/packages/gnss_pose_estimation_node
+[1.619s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/cmake/gnss_pose_estimation_nodeConfig.cmake
+[1.619s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/cmake/gnss_pose_estimation_nodeConfig-version.cmake
+[1.619s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/package.xml
+[1.620s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node

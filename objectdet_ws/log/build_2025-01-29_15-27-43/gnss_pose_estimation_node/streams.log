@@ -1,0 +1,31 @@
+[0.020s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node -- -j12 -l12
+[0.122s] [35m[1mScanning dependencies of target gnss_pose_estimation_node[0m
+[0.183s] [ 50%] [32mBuilding CXX object CMakeFiles/gnss_pose_estimation_node.dir/src/gnss_pose_estimation_node.cpp.o[0m
+[2.085s] In file included from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:10[m[K:
+[2.086s] [01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:[m[K In function ‘[01m[Kstd::array<double, 2> wgs84::toCartesian(const std::array<double, 2>&, const std::array<double, 2>&)[m[K’:
+[2.086s] [01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:52:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KPOLE_RADIUS[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.086s]    52 |     constexpr double [01;35m[KPOLE_RADIUS[m[K{EQUATOR_RADIUS * SQUARE_ROOT_ONE_MINUS_ECCENTRICITY};
+[2.086s]       |                      [01;35m[K^~~~~~~~~~~[m[K
+[8.383s] [100%] [32m[1mLinking CXX executable gnss_pose_estimation_node[0m
+[8.589s] [100%] Built target gnss_pose_estimation_node
+[8.599s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node -- -j12 -l12
+[8.625s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node
+[8.633s] -- Install configuration: "Release"
+[8.634s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/lib/gnss_pose_estimation_node/gnss_pose_estimation_node
+[8.635s] -- Set runtime path of "/home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/lib/gnss_pose_estimation_node/gnss_pose_estimation_node" to ""
+[8.636s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/package_run_dependencies/gnss_pose_estimation_node
+[8.636s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/parent_prefix_path/gnss_pose_estimation_node
+[8.636s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/ament_prefix_path.sh
+[8.636s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/ament_prefix_path.dsv
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/path.sh
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/path.dsv
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.bash
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.sh
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.zsh
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.dsv
+[8.637s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/package.dsv
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/packages/gnss_pose_estimation_node
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/cmake/gnss_pose_estimation_nodeConfig.cmake
+[8.637s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/cmake/gnss_pose_estimation_nodeConfig-version.cmake
+[8.638s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/package.xml
+[8.639s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node

@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mlemsalu/walker_ws/install/ros2bag_to_files:/home/mlemsalu/walker_ws/install/message_sync_python_lidar2lidar:/home/mlemsalu/walker_ws/install/message_sync_python:/home/mlemsalu/walker_ws/install/ros2bag:/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[0.061s] [35m[1mScanning dependencies of target merge_pointclouds_node[0m
+[0.107s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o[0m
+[9.753s] [100%] [32m[1mLinking CXX executable merge_pointclouds_node[0m
+[10.040s] [100%] Built target merge_pointclouds_node
+[10.051s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mlemsalu/walker_ws/install/ros2bag_to_files:/home/mlemsalu/walker_ws/install/message_sync_python_lidar2lidar:/home/mlemsalu/walker_ws/install/message_sync_python:/home/mlemsalu/walker_ws/install/ros2bag:/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[10.092s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mlemsalu/walker_ws/install/ros2bag_to_files:/home/mlemsalu/walker_ws/install/message_sync_python_lidar2lidar:/home/mlemsalu/walker_ws/install/message_sync_python:/home/mlemsalu/walker_ws/install/ros2bag:/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds
+[10.101s] -- Install configuration: ""
+[10.102s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/lib/merge_pointclouds/merge_pointclouds_node
+[10.104s] -- Set runtime path of "/home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/lib/merge_pointclouds/merge_pointclouds_node" to ""
+[10.104s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/package_run_dependencies/merge_pointclouds
+[10.104s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/parent_prefix_path/merge_pointclouds
+[10.104s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/ament_prefix_path.sh
+[10.105s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/ament_prefix_path.dsv
+[10.105s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/path.sh
+[10.105s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/path.dsv
+[10.105s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.bash
+[10.105s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.sh
+[10.105s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.zsh
+[10.105s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.dsv
+[10.105s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/package.dsv
+[10.106s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/packages/merge_pointclouds
+[10.106s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/cmake/merge_pointcloudsConfig.cmake
+[10.106s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/cmake/merge_pointcloudsConfig-version.cmake
+[10.106s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/package.xml
+[10.108s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mlemsalu/walker_ws/install/ros2bag_to_files:/home/mlemsalu/walker_ws/install/message_sync_python_lidar2lidar:/home/mlemsalu/walker_ws/install/message_sync_python:/home/mlemsalu/walker_ws/install/ros2bag:/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds

@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[0.049s] [35m[1mScanning dependencies of target merge_pointclouds_node[0m
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o[0m
+[11.367s] [100%] [32m[1mLinking CXX executable merge_pointclouds_node[0m
+[11.561s] [100%] Built target merge_pointclouds_node
+[11.572s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[11.600s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds
+[11.607s] -- Install configuration: "Release"
+[11.608s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/lib/merge_pointclouds/merge_pointclouds_node
+[11.609s] -- Set runtime path of "/home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/lib/merge_pointclouds/merge_pointclouds_node" to ""
+[11.609s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/package_run_dependencies/merge_pointclouds
+[11.609s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/parent_prefix_path/merge_pointclouds
+[11.609s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/ament_prefix_path.sh
+[11.609s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/ament_prefix_path.dsv
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/path.sh
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/path.dsv
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.bash
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.sh
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.zsh
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.dsv
+[11.610s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/package.dsv
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/packages/merge_pointclouds
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/cmake/merge_pointcloudsConfig.cmake
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/cmake/merge_pointcloudsConfig-version.cmake
+[11.610s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/package.xml
+[11.612s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds

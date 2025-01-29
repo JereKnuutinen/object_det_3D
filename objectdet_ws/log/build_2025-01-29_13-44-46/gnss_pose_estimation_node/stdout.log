@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target gnss_pose_estimation_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gnss_pose_estimation_node.dir/src/gnss_pose_estimation_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gnss_pose_estimation_node[0m
+[100%] Built target gnss_pose_estimation_node
+-- Install configuration: "Release"
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/lib/gnss_pose_estimation_node/gnss_pose_estimation_node
+-- Set runtime path of "/home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/lib/gnss_pose_estimation_node/gnss_pose_estimation_node" to ""
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/package_run_dependencies/gnss_pose_estimation_node
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/parent_prefix_path/gnss_pose_estimation_node
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/ament_prefix_path.sh
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/ament_prefix_path.dsv
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/path.sh
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/path.dsv
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.bash
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.sh
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.zsh
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.dsv
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/package.dsv
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/packages/gnss_pose_estimation_node
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/cmake/gnss_pose_estimation_nodeConfig.cmake
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/cmake/gnss_pose_estimation_nodeConfig-version.cmake
+-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/package.xml

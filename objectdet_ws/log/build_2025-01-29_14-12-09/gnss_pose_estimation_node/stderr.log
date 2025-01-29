@@ -1,0 +1,67 @@
+In file included from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:10[m[K:
+[01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:[m[K In function ‘[01m[Kstd::array<double, 2> wgs84::toCartesian(const std::array<double, 2>&, const std::array<double, 2>&)[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:52:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KPOLE_RADIUS[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   52 |     constexpr double [01;35m[KPOLE_RADIUS[m[K{EQUATOR_RADIUS * SQUARE_ROOT_ONE_MINUS_ECCENTRICITY};
+      |                      [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:[m[K At global scope:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:103:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ was not declared in this scope
+  103 |     rclcpp::Publisher<[01;31m[Kvisualization_msgs[m[K::msg::Marker>::SharedPtr trajectory_publisher_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:103:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  103 |     rclcpp::Publisher<visualization_msgs::msg::Marker[01;31m[K>[m[K::SharedPtr trajectory_publisher_;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:103:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  103 |     rclcpp::Publisher<visualization_msgs::msg::Marker>::[01;31m[KSharedPtr[m[K trajectory_publisher_;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:103:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_publisher_[m[K’ does not name a type
+  103 | cpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr [01;31m[Ktrajectory_publisher_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:[m[K In constructor ‘[01m[KGNSSPoseEstimationNode::GNSSPoseEstimationNode()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:24:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_publisher_[m[K’ was not declared in this scope
+   24 |                 [01;31m[Ktrajectory_publisher_[m[K = this->create_publisher<visualization_msgs::msg::Marker>("/trajectory", 10);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:24:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ was not declared in this scope
+   24 |             trajectory_publisher_ = this->create_publisher<[01;31m[Kvisualization_msgs[m[K::msg::Marker>("/trajectory", 10);
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:24:47:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   24 |                 trajectory_publisher_ = this->[01;31m[Kcreate_publisher<visualization_msgs::msg::Marker>[m[K("/trajectory", 10);
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:24:114:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGNSSPoseEstimationNode::create_publisher<<expression error> >(const char [12], int)[m[K’
+   24 | ublisher<visualization_msgs::msg::Marker>("/trajectory", 10[01;31m[K)[m[K;
+      |                                                            [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   71 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:24:114:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 | ublisher<visualization_msgs::msg::Marker>("/trajectory", 10[01;31m[K)[m[K;
+      |                                                            [01;31m[K^[m[K
+
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:[m[K In member function ‘[01m[Kvoid GNSSPoseEstimationNode::publishTrajectory()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:72:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ has not been declared
+   72 |         [01;31m[Kvisualization_msgs[m[K::msg::Marker marker;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:73:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ was not declared in this scope
+   73 |         [01;31m[Kmarker[m[K.header.frame_id = "map";  // Frame where the trajectory is defined
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:77:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ has not been declared
+   77 |         marker.type = [01;31m[Kvisualization_msgs[m[K::msg::Marker::LINE_STRIP;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:78:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ has not been declared
+   78 |         marker.action = [01;31m[Kvisualization_msgs[m[K::msg::Marker::ADD;
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_publisher_[m[K’ was not declared in this scope
+   95 |         [01;31m[Ktrajectory_publisher_[m[K->publish(marker);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gnss_pose_estimation_node.dir/build.make:63: CMakeFiles/gnss_pose_estimation_node.dir/src/gnss_pose_estimation_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gnss_pose_estimation_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

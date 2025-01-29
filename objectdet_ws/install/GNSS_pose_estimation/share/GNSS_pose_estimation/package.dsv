@@ -1,0 +1,5 @@
+source;share/GNSS_pose_estimation/local_setup.bash
+source;share/GNSS_pose_estimation/local_setup.dsv
+source;share/GNSS_pose_estimation/local_setup.ps1
+source;share/GNSS_pose_estimation/local_setup.sh
+source;share/GNSS_pose_estimation/local_setup.zsh

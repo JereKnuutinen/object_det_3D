@@ -1,0 +1,4 @@
+source;share/merge_pointclouds/local_setup.bash
+source;share/merge_pointclouds/local_setup.dsv
+source;share/merge_pointclouds/local_setup.sh
+source;share/merge_pointclouds/local_setup.zsh

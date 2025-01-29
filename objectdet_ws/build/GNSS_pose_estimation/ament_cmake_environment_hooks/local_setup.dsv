@@ -1,0 +1,2 @@
+source;share/GNSS_pose_estimation/environment/ament_prefix_path.sh
+source;share/GNSS_pose_estimation/environment/path.sh

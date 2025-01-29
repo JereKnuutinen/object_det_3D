@@ -1,0 +1,257 @@
+[0.013s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node
+[0.061s] -- The C compiler identification is GNU 9.4.0
+[0.109s] -- The CXX compiler identification is GNU 9.4.0
+[0.113s] -- Check for working C compiler: /usr/bin/cc
+[0.172s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.173s] -- Detecting C compiler ABI info
+[0.230s] -- Detecting C compiler ABI info - done
+[0.240s] -- Detecting C compile features
+[0.240s] -- Detecting C compile features - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.309s] -- Detecting CXX compiler ABI info
+[0.380s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Detecting CXX compile features
+[0.390s] -- Detecting CXX compile features - done
+[0.392s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.410s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.410s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.577s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.616s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.671s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.687s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.787s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.788s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.789s] -- Looking for pthread.h
+[0.847s] -- Looking for pthread.h - found
+[0.848s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.909s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.910s] -- Looking for pthread_create in pthreads
+[0.959s] -- Looking for pthread_create in pthreads - not found
+[0.959s] -- Looking for pthread_create in pthread
+[1.026s] -- Looking for pthread_create in pthread - found
+[1.027s] -- Found Threads: TRUE  
+[1.165s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.500s] -- Checking for module 'eigen3'
+[1.510s] --   Found eigen3, version 3.3.7
+[1.539s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.539s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.573s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.577s] -- Checking for module 'libusb-1.0'
+[1.590s] --   Found libusb-1.0, version 1.0.23
+[1.620s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.661s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[1.661s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.706s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[1.706s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.707s] ** WARNING ** io features related to pcap will be disabled
+[1.707s] ** WARNING ** io features related to png will be disabled
+[1.759s] -- The imported target "vtkParseOGLExt" references the file
+[1.759s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.759s] but this file does not exist.  Possible reasons include:
+[1.759s] * The file was deleted, renamed, or moved to another location.
+[1.760s] * An install or uninstall procedure did not complete successfully.
+[1.760s] * The installation package was faulty and contained
+[1.760s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.760s] but not all the files it references.
+[1.760s] 
+[1.760s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.760s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.760s] but this file does not exist.  Possible reasons include:
+[1.761s] * The file was deleted, renamed, or moved to another location.
+[1.761s] * An install or uninstall procedure did not complete successfully.
+[1.761s] * The installation package was faulty and contained
+[1.761s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.761s] but not all the files it references.
+[1.761s] 
+[1.761s] -- The imported target "vtk" references the file
+[1.762s]    "/usr/bin/vtk"
+[1.762s] but this file does not exist.  Possible reasons include:
+[1.762s] * The file was deleted, renamed, or moved to another location.
+[1.762s] * An install or uninstall procedure did not complete successfully.
+[1.762s] * The installation package was faulty and contained
+[1.762s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.762s] but not all the files it references.
+[1.762s] 
+[1.763s] -- The imported target "pvtk" references the file
+[1.763s]    "/usr/bin/pvtk"
+[1.763s] but this file does not exist.  Possible reasons include:
+[1.763s] * The file was deleted, renamed, or moved to another location.
+[1.763s] * An install or uninstall procedure did not complete successfully.
+[1.763s] * The installation package was faulty and contained
+[1.763s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.763s] but not all the files it references.
+[1.763s] 
+[1.776s] -- Found libusb-1.0: /usr/include  
+[1.776s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.776s] -- looking for PCL_COMMON
+[1.776s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.777s] -- looking for PCL_OCTREE
+[1.777s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.778s] -- looking for PCL_IO
+[1.779s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.779s] -- Found PCL: pcl_common;pcl_octree;pcl_io;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2  
+[1.780s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[2.058s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.115s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.116s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.116s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/include>
+[2.116s] -- Configured cppcheck exclude dirs and/or files: 
+[2.117s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.117s] -- Configured cpplint exclude dirs and/or files: 
+[2.117s] -- Added test 'lint_cmake' to check CMake code style
+[2.118s] -- Added test 'uncrustify' to check C / C++ code style
+[2.118s] -- Configured uncrustify additional arguments: 
+[2.118s] -- Added test 'xmllint' to check XML markup files
+[2.122s] -- Configuring done
+[2.145s] -- Generating done
+[2.147s] -- Build files have been written to: /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node
+[2.156s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node
+[2.157s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node -- -j12 -l12
+[2.191s] [35m[1mScanning dependencies of target gnss_pose_estimation_node[0m
+[2.253s] [ 50%] [32mBuilding CXX object CMakeFiles/gnss_pose_estimation_node.dir/src/gnss_pose_estimation_node.cpp.o[0m
+[3.777s] In file included from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:9[m[K:
+[3.777s] [01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:[m[K In function ‘[01m[Kstd::array<double, 2> wgs84::toCartesian(const std::array<double, 2>&, const std::array<double, 2>&)[m[K’:
+[3.777s] [01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:52:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KPOLE_RADIUS[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.777s]    52 |     constexpr double [01;35m[KPOLE_RADIUS[m[K{EQUATOR_RADIUS * SQUARE_ROOT_ONE_MINUS_ECCENTRICITY};
+[3.777s]       |                      [01;35m[K^~~~~~~~~~~[m[K
+[3.806s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:[m[K In constructor ‘[01m[KGNSSPoseEstimationNode::GNSSPoseEstimationNode()[m[K’:
+[3.807s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:18:102:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > > >[m[K’)
+[3.807s]    18 |             "/fix", 10, std::bind(&GNSSPoseEstimationNode::GNSSCallback, this, std::placeholders::_1)[01;31m[K)[m[K;
+[3.807s]       |                                                                                                      [01;31m[K^[m[K
+[3.807s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.807s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.807s]                  from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:1[m[K:
+[3.807s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >][m[K’
+[3.807s]   309 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.807s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.807s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >&[m[K’
+[3.807s]   309 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.807s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.807s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >][m[K’
+[3.807s]   313 |  [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.807s]       |  [01;36m[K^~~~~~~~[m[K
+[3.808s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.808s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >][m[K’:
+[3.808s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.808s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:18:102:[m[K   required from here
+[3.808s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >&>[m[K’
+[3.808s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.808s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[3.808s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >][m[K’
+[3.808s]   324 |  [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.808s]       |  [01;36m[K^~~~~~~~[m[K
+[3.808s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.808s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:18:102:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.808s]    18 |             "/fix", 10, std::bind(&GNSSPoseEstimationNode::GNSSCallback, this, std::placeholders::_1)[01;36m[K)[m[K;
+[3.808s]       |                                                                                                      [01;36m[K^[m[K
+[3.808s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.808s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.808s]                  from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:1[m[K:
+[3.808s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >][m[K’
+[3.808s]   333 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.808s]       |       [01;36m[K^~~~~~~~[m[K
+[3.809s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >&&[m[K’
+[3.809s]   333 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.809s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.809s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >][m[K’
+[3.809s]   341 |  [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.809s]       |  [01;36m[K^~~~~~~~[m[K
+[3.809s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.809s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >][m[K’:
+[3.809s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.809s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:18:102:[m[K   required from here
+[3.809s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > > >&>[m[K’
+[3.809s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.809s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[3.809s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >][m[K’
+[3.809s]   349 |  [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.809s]       |  [01;36m[K^~~~~~~~[m[K
+[3.809s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.809s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:18:102:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.809s]    18 |             "/fix", 10, std::bind(&GNSSPoseEstimationNode::GNSSCallback, this, std::placeholders::_1)[01;36m[K)[m[K;
+[3.809s]       |                                                                                                      [01;36m[K^[m[K
+[3.818s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:20:106:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[3.819s]    20 |         gnss_pose_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/GNSS_pose_enu", 10[01;31m[K)[m[K;
+[3.819s]       |                                                                                                          [01;31m[K^[m[K
+[3.819s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.819s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.819s]                  from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:1[m[K:
+[3.819s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >][m[K’
+[3.819s]   309 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[3.819s]       |                   [01;36m[K^~~~~~~~[m[K
+[3.819s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >&[m[K’
+[3.819s]   309 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[3.819s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.820s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >][m[K’
+[3.820s]   313 |  [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[3.820s]       |  [01;36m[K^~~~~~~~[m[K
+[3.820s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.820s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >][m[K’:
+[3.820s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> >][m[K’
+[3.820s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:20:106:[m[K   required from here
+[3.820s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >&>[m[K’
+[3.820s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.820s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[3.821s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >][m[K’
+[3.821s]   324 |  [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[3.821s]       |  [01;36m[K^~~~~~~~[m[K
+[3.821s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.821s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:20:106:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[3.821s]    20 |         gnss_pose_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/GNSS_pose_enu", 10[01;36m[K)[m[K;
+[3.821s]       |                                                                                                          [01;36m[K^[m[K
+[3.821s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.821s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.821s]                  from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:1[m[K:
+[3.821s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >][m[K’
+[3.821s]   333 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[3.821s]       |       [01;36m[K^~~~~~~~[m[K
+[3.821s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >&&[m[K’
+[3.821s]   333 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[3.821s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[3.821s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >][m[K’
+[3.821s]   341 |  [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[3.821s]       |  [01;36m[K^~~~~~~~[m[K
+[3.821s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.822s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >][m[K’:
+[3.822s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> >][m[K’
+[3.822s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:20:106:[m[K   required from here
+[3.822s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > > >&>[m[K’
+[3.822s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[3.822s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[3.822s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<geometry_msgs::msg::Pose_<std::allocator<void> > >][m[K’
+[3.822s]   349 |  [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[3.822s]       |  [01;36m[K^~~~~~~~[m[K
+[3.822s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.822s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:20:106:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<sensor_msgs::msg::PointCloud2_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[3.822s]    20 |         gnss_pose_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/GNSS_pose_enu", 10[01;36m[K)[m[K;
+[3.822s]       |                                                                                                          [01;36m[K^[m[K
+[3.822s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:[m[K In member function ‘[01m[Kvoid GNSSPoseEstimationNode::GNSSCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.822s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:29:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klatitude[m[K’
+[3.822s]    29 |             lat0_ = msg->[01;31m[Klatitude[m[K;
+[3.822s]       |                          [01;31m[K^~~~~~~~[m[K
+[3.822s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:30:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klongitude[m[K’
+[3.822s]    30 |             lon0_ =  msg->[01;31m[Klongitude[m[K;
+[3.823s]       |                           [01;31m[K^~~~~~~~~[m[K
+[3.823s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:34:92:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klatitude[m[K’
+[3.823s]    34 |         std::array<double, 2> cartesianPosition = wgs84::toCartesian({lat0_, lon0_}, {msg->[01;31m[Klatitude[m[K, msg->longitude});
+[3.823s]       |                                                                                            [01;31m[K^~~~~~~~[m[K
+[3.823s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:34:107:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klongitude[m[K’
+[3.823s]    34 |         std::array<double, 2> cartesianPosition = wgs84::toCartesian({lat0_, lon0_}, {msg->latitude, msg->[01;31m[Klongitude[m[K});
+[3.823s]       |                                                                                                           [01;31m[K^~~~~~~~~[m[K
+[3.823s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:34:117:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst std::array<double, 2>&[m[K’ from expression of type ‘[01m[K<brace-enclosed initializer list>[m[K’
+[3.823s]    34 |         std::array<double, 2> cartesianPosition = wgs84::toCartesian({lat0_, lon0_}, {msg->latitude, msg->longitude}[01;31m[K)[m[K;
+[3.823s]       |                                                                                                                     [01;31m[K^[m[K
+[3.823s] In file included from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:9[m[K:
+[3.823s] [01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:39:116:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kstd::array<double, 2> wgs84::toCartesian(const std::array<double, 2>&, const std::array<double, 2>&)[m[K’
+[3.823s]    39 | inline std::array<double, 2> toCartesian(const std::array<double, 2> &WGS84Reference, [01;36m[Kconst std::array<double, 2> &WGS84Position[m[K) {
+[3.823s]       |                                                                                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.823s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:39:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kaltitude[m[K’
+[3.823s]    39 |         gnss_pose.position.z = msg->[01;31m[Kaltitude[m[K;
+[3.823s]       |                                     [01;31m[K^~~~~~~~[m[K
+[4.836s] make[2]: *** [CMakeFiles/gnss_pose_estimation_node.dir/build.make:63: CMakeFiles/gnss_pose_estimation_node.dir/src/gnss_pose_estimation_node.cpp.o] Error 1
+[4.837s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gnss_pose_estimation_node.dir/all] Error 2
+[4.837s] make: *** [Makefile:141: all] Error 2
+[4.839s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node -- -j12 -l12

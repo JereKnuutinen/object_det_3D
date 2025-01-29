@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/GNSS_pose_estimation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mlemsalu/object_det_3D/objectdet_ws/install/GNSS_pose_estimation
+[0.026s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.219s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.250s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.370s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.372s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.496s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.496s]   By not providing "Findcustom_msgs.cmake" in CMAKE_MODULE_PATH this project
+[0.496s]   has asked CMake to find a package configuration file provided by
+[0.496s]   "custom_msgs", but CMake did not find one.
+[0.496s] 
+[0.496s]   Could not find a package configuration file provided by "custom_msgs" with
+[0.496s]   any of the following names:
+[0.496s] 
+[0.496s]     custom_msgsConfig.cmake
+[0.496s]     custom_msgs-config.cmake
+[0.496s] 
+[0.496s]   Add the installation prefix of "custom_msgs" to CMAKE_PREFIX_PATH or set
+[0.496s]   "custom_msgs_DIR" to a directory containing one of the above files.  If
+[0.496s]   "custom_msgs" provides a separate development package or SDK, be sure it
+[0.496s]   has been installed.
+[0.496s] 
+[0.496s] 
+[0.497s] -- Configuring incomplete, errors occurred!
+[0.497s] See also "/home/mlemsalu/object_det_3D/objectdet_ws/build/GNSS_pose_estimation/CMakeFiles/CMakeOutput.log".
+[0.497s] See also "/home/mlemsalu/object_det_3D/objectdet_ws/build/GNSS_pose_estimation/CMakeFiles/CMakeError.log".
+[0.500s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/GNSS_pose_estimation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/mlemsalu/object_det_3D/objectdet_ws/install/GNSS_pose_estimation

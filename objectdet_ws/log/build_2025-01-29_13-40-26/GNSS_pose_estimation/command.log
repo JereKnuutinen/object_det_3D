@@ -1,0 +1,2 @@
+Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/GNSS_pose_estimation': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/GNSS_pose_estimation -- -j12 -l12
+Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/GNSS_pose_estimation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/GNSS_pose_estimation -- -j12 -l12

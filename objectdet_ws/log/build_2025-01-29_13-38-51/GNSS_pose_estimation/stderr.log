@@ -1,0 +1,10 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'custom_msgs' was not
+  found before
+Call Stack (most recent call first):
+  CMakeLists.txt:33 (ament_target_dependencies)
+
+

@@ -1,0 +1,10 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In constructor ‘[01m[KMergePcNode::MergePcNode()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:37:19:[m[K [01;31m[Kerror: [m[K‘[01m[KTimerNode[m[K’ has not been declared
+   37 |        std::bind(&[01;31m[KTimerNode[m[K::mergePointClouds, this)
+      |                   [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

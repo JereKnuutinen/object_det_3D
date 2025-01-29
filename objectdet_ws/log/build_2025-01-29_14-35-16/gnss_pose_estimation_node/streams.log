@@ -1,0 +1,17 @@
+[0.012s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node -- -j12 -l12
+[0.058s] [35m[1mScanning dependencies of target gnss_pose_estimation_node[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/gnss_pose_estimation_node.dir/src/gnss_pose_estimation_node.cpp.o[0m
+[1.666s] In file included from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:10[m[K:
+[1.666s] [01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:[m[K In function ‘[01m[Kstd::array<double, 2> wgs84::toCartesian(const std::array<double, 2>&, const std::array<double, 2>&)[m[K’:
+[1.666s] [01m[K/home/mlemsalu/object_det_3D/ll2enu/WGS84toCartesian.hpp:52:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KPOLE_RADIUS[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.666s]    52 |     constexpr double [01;35m[KPOLE_RADIUS[m[K{EQUATOR_RADIUS * SQUARE_ROOT_ONE_MINUS_ECCENTRICITY};
+[1.666s]       |                      [01;35m[K^~~~~~~~~~~[m[K
+[1.719s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:[m[K In constructor ‘[01m[KGNSSPoseEstimationNode::GNSSPoseEstimationNode()[m[K’:
+[1.719s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/GNSS_pose_estimation/src/gnss_pose_estimation_node.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.719s]    26 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::milliseconds(100),
+[1.719s]       |         [01;31m[K^~~~~~[m[K
+[1.719s]       |         [32m[Ktimer_t[m[K
+[2.888s] make[2]: *** [CMakeFiles/gnss_pose_estimation_node.dir/build.make:63: CMakeFiles/gnss_pose_estimation_node.dir/src/gnss_pose_estimation_node.cpp.o] Error 1
+[2.889s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/gnss_pose_estimation_node.dir/all] Error 2
+[2.889s] make: *** [Makefile:141: all] Error 2
+[2.892s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node -- -j12 -l12

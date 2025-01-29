@@ -1,0 +1,10 @@
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In member function ‘[01m[Kvoid MergePcNode::mergePointClouds()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:85:113:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ to non-scalar type ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kboost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} requested
+   85 |         pcl::PointCloud<pcl::PointXYZ>::Ptr transformed_cloud = [01;31m[Kstd::make_shared<pcl::PointCloud<pcl::PointXYZ>>()[m[K;
+      |                                                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:89:108:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ to non-scalar type ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kboost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} requested
+   89 |         pcl::PointCloud<pcl::PointXYZ>::Ptr merged_cloud = [01;31m[Kstd::make_shared<pcl::PointCloud<pcl::PointXYZ>>()[m[K;
+      |                                                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
