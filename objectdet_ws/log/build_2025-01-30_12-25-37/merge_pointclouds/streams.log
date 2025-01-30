@@ -1,0 +1,24 @@
+[0.019s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[0.147s] [35m[1mScanning dependencies of target merge_pointclouds_node[0m
+[0.204s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o[0m
+[5.463s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:152:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+[5.463s]   152 |     pcl::VoxelGrid<[01;31m[KPointType[m[K> voxel;
+[5.464s]       |                    [01;31m[K^~~~~~~~~[m[K
+[5.464s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:152:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.464s]   152 |     pcl::VoxelGrid<PointType[01;31m[K>[m[K voxel;
+[5.464s]       |                             [01;31m[K^[m[K
+[5.490s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In constructor ‘[01m[KMergePcNode::MergePcNode()[m[K’:
+[5.490s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:51:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetLeafSize[m[K’ in ‘[01m[K((MergePcNode*)this)->MergePcNode::voxel[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[5.490s]    51 |         voxel.[01;31m[KsetLeafSize[m[K(0.3, 0.3, 0.3);
+[5.490s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[5.493s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In member function ‘[01m[Kvoid MergePcNode::mergePointClouds()[m[K’:
+[5.493s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:78:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetInputCloud[m[K’ in ‘[01m[K((MergePcNode*)this)->MergePcNode::voxel[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[5.493s]    78 |         voxel.[01;31m[KsetInputCloud[m[K(pc2_);
+[5.493s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[5.493s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:79:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfilter[m[K’ in ‘[01m[K((MergePcNode*)this)->MergePcNode::voxel[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[5.493s]    79 |         voxel.[01;31m[Kfilter[m[K(*pc2_);
+[5.493s]       |               [01;31m[K^~~~~~[m[K
+[9.800s] make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+[9.800s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+[9.801s] make: *** [Makefile:141: all] Error 2
+[9.804s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12

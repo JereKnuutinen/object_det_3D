@@ -12,6 +12,15 @@
 #include <vector>
 #include <visualization_msgs/msg/marker.hpp>
 #include <math.h>
+
+/**
+ * @class GNSSPoseEstimationNode
+ * @brief A class for simple GNSS pose estimation
+ *
+ * This class implements simple GNSS pose estimation by combining reading from the GNSS and IMU 
+ *
+ */
+
 class GNSSPoseEstimationNode : public rclcpp::Node
 {
 public:
@@ -29,6 +38,11 @@ public:
     }
 
 private:
+
+    /**
+     * @brief Processes gnss callback. convert lat lon point into ENU frame.
+     * @param msg is incoming IMU message
+     */
     void GNSSCallback(const sensor_msgs::msg::NavSatFix::SharedPtr msg)
     {
         if (first_time_here_ == true) {
@@ -40,15 +54,19 @@ private:
         std::array<double, 2> cartesianPosition = wgs84::toCartesian({lat0_, lon0_}, {msg->latitude, msg->longitude});
         local_enu_x_ = cartesianPosition.at(0);
         local_enu_y_ = cartesianPosition.at(1);
+        local_enu_z_ = msg->altitude;
         gnss_received_ = true;
 
     }
-
+    /**
+     * @brief Processes imu callback. Yaw angle is fixes so that it is counter clock wise and zero is towards east
+     * @param msg is incoming IMU message
+     */
     void ImuCallback(const sensor_msgs::msg::Imu::SharedPtr msg)
     {
-        double yawtemp = -msg->orientation_covariance[1] + M_PI/2;
+        double yawtemp = -msg->orientation_covariance[1] + M_PI/2.0;
         if (yawtemp > M_PI) {
-        	yawtemp = yawtemp - M_PI/2;
+        	yawtemp = yawtemp - M_PI/2.0;
         }
         yaw_ = yawtemp;
         pitch_ =  -msg->orientation_covariance[2];
@@ -56,17 +74,22 @@ private:
         imu_received_ = true;
     }
 
+    /**
+     * @brief merges IMU and GNSS data into 4x4 transformation matrix
+     * @param 
+     */
     void mergeGnssImu()
     {
-        if (!gnss_received_ || !imu_received_)
+        // if there is not yet any GNSS or IMU messages return immediately.
+        if (gnss_received_ == false || imu_received_ == false) {
             return;
-
+        }
 
         // Publish the GNSS pose
         geometry_msgs::msg::Pose gnss_pose;
         gnss_pose.position.x = local_enu_x_;
         gnss_pose.position.y = local_enu_y_;
-        gnss_pose.position.z = 0; //msg->altitude;
+        gnss_pose.position.z = local_enu_z_;
 
         // Convert yaw, pitch, roll to quaternion
         tf2::Quaternion q;
@@ -84,7 +107,7 @@ private:
         geometry_msgs::msg::TransformStamped transform_stamped;
         transform_stamped.header.stamp = this->get_clock()->now();
         transform_stamped.header.frame_id = "map";  // Base frame, change if necessary
-        transform_stamped.child_frame_id = "gnss_pose"; // GNSS pose frame
+        transform_stamped.child_frame_id = "gnss_pose"; // GNSS pose frame. changes with time.
 
         // Set translation and orientation from the GNSS pose
         transform_stamped.transform.translation.x = gnss_pose.position.x;
@@ -103,6 +126,7 @@ private:
     bool gnss_received_, imu_received_;
     double local_enu_x_;
     double local_enu_y_;
+    double local_enu_z_;
     double yaw_;
     double roll_;
     double pitch_;

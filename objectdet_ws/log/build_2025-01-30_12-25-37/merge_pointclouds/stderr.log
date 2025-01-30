@@ -1,0 +1,20 @@
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:152:20:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+  152 |     pcl::VoxelGrid<[01;31m[KPointType[m[K> voxel;
+      |                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:152:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  152 |     pcl::VoxelGrid<PointType[01;31m[K>[m[K voxel;
+      |                             [01;31m[K^[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In constructor ‘[01m[KMergePcNode::MergePcNode()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:51:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetLeafSize[m[K’ in ‘[01m[K((MergePcNode*)this)->MergePcNode::voxel[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   51 |         voxel.[01;31m[KsetLeafSize[m[K(0.3, 0.3, 0.3);
+      |               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In member function ‘[01m[Kvoid MergePcNode::mergePointClouds()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:78:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetInputCloud[m[K’ in ‘[01m[K((MergePcNode*)this)->MergePcNode::voxel[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   78 |         voxel.[01;31m[KsetInputCloud[m[K(pc2_);
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:79:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfilter[m[K’ in ‘[01m[K((MergePcNode*)this)->MergePcNode::voxel[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   79 |         voxel.[01;31m[Kfilter[m[K(*pc2_);
+      |               [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

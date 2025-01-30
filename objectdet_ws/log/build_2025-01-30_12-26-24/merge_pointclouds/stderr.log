@@ -1,0 +1,19 @@
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:152:5:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Kpcl::VoxelGrid[m[K’ without an argument list
+  152 |     [01;31m[Kpcl[m[K::VoxelGrid<<pcl::PointXYZ> voxel;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:152:5:[m[K [01;36m[Knote: [m[Kclass template argument deduction is only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+In file included from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:21[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/filters/voxel_grid.h:177:9:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class PointT> class pcl::VoxelGrid[m[K’ declared here
+  177 |   class [01;36m[KVoxelGrid[m[K: public Filter<PointT>
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In constructor ‘[01m[KMergePcNode::MergePcNode()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoxel[m[K’ was not declared in this scope
+   51 |         [01;31m[Kvoxel[m[K.setLeafSize(0.3, 0.3, 0.3);
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In member function ‘[01m[Kvoid MergePcNode::mergePointClouds()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:78:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoxel[m[K’ was not declared in this scope
+   78 |         [01;31m[Kvoxel[m[K.setInputCloud(pc2_);
+      |         [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
