@@ -652,11 +652,13 @@ CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/inc
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/Vertices.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/cloud_iterator.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/centroid.h
+CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/common.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/concatenate.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/copy_point.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/eigen.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/impl/accumulators.hpp
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/impl/centroid.hpp
+CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/impl/common.hpp
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/impl/copy_point.hpp
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/impl/eigen.hpp
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/common/impl/io.hpp
@@ -668,8 +670,10 @@ CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/inc
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/conversions.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/correspondence.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/exceptions.h
+CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/filters/approximate_voxel_grid.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/filters/boost.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/filters/filter.h
+CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/filters/impl/approximate_voxel_grid.hpp
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/filters/impl/filter.hpp
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/for_each_type.h
 CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o: /usr/include/pcl-1.10/pcl/impl/cloud_iterator.hpp

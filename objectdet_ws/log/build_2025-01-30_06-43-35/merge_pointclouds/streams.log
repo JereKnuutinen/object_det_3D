@@ -1,0 +1,101 @@
+[0.015s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[0.040s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.058s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.237s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.267s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.399s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.400s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.538s] -- Found custom_msgs: 0.0.0 (/home/mlemsalu/walker_ws/install/custom_msgs/share/custom_msgs/cmake)
+[0.895s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.217s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.230s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.247s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.252s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.253s] ** WARNING ** io features related to pcap will be disabled
+[1.253s] ** WARNING ** io features related to png will be disabled
+[1.308s] -- The imported target "vtkParseOGLExt" references the file
+[1.308s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.308s] but this file does not exist.  Possible reasons include:
+[1.308s] * The file was deleted, renamed, or moved to another location.
+[1.308s] * An install or uninstall procedure did not complete successfully.
+[1.308s] * The installation package was faulty and contained
+[1.308s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.308s] but not all the files it references.
+[1.308s] 
+[1.309s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.309s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.309s] but this file does not exist.  Possible reasons include:
+[1.309s] * The file was deleted, renamed, or moved to another location.
+[1.309s] * An install or uninstall procedure did not complete successfully.
+[1.309s] * The installation package was faulty and contained
+[1.309s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.309s] but not all the files it references.
+[1.309s] 
+[1.309s] -- The imported target "vtk" references the file
+[1.309s]    "/usr/bin/vtk"
+[1.309s] but this file does not exist.  Possible reasons include:
+[1.310s] * The file was deleted, renamed, or moved to another location.
+[1.310s] * An install or uninstall procedure did not complete successfully.
+[1.310s] * The installation package was faulty and contained
+[1.310s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.310s] but not all the files it references.
+[1.310s] 
+[1.310s] -- The imported target "pvtk" references the file
+[1.310s]    "/usr/bin/pvtk"
+[1.310s] but this file does not exist.  Possible reasons include:
+[1.310s] * The file was deleted, renamed, or moved to another location.
+[1.310s] * An install or uninstall procedure did not complete successfully.
+[1.310s] * The installation package was faulty and contained
+[1.310s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.310s] but not all the files it references.
+[1.310s] 
+[1.325s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.337s] -- looking for PCL_COMMON
+[1.337s] -- looking for PCL_OCTREE
+[1.338s] -- looking for PCL_IO
+[1.339s] -- looking for PCL_KDTREE
+[1.339s] -- looking for PCL_SEARCH
+[1.340s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.340s] -- looking for PCL_FILTERS
+[1.342s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.565s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.615s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.616s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.616s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/include>
+[1.616s] -- Configured cppcheck exclude dirs and/or files: 
+[1.617s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.617s] -- Configured cpplint exclude dirs and/or files: 
+[1.617s] -- Added test 'lint_cmake' to check CMake code style
+[1.618s] -- Added test 'uncrustify' to check C / C++ code style
+[1.618s] -- Configured uncrustify additional arguments: 
+[1.618s] -- Added test 'xmllint' to check XML markup files
+[1.621s] -- Configuring done
+[1.671s] -- Generating done
+[1.673s] -- Build files have been written to: /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds
+[1.699s] [35m[1mScanning dependencies of target merge_pointclouds_node[0m
+[1.723s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o[0m
+[14.551s] [100%] [32m[1mLinking CXX executable merge_pointclouds_node[0m
+[15.127s] [100%] Built target merge_pointclouds_node
+[15.138s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[15.158s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds
+[15.166s] -- Install configuration: "Release"
+[15.166s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/lib/merge_pointclouds/merge_pointclouds_node
+[15.167s] -- Set runtime path of "/home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/lib/merge_pointclouds/merge_pointclouds_node" to ""
+[15.167s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/package_run_dependencies/merge_pointclouds
+[15.167s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/parent_prefix_path/merge_pointclouds
+[15.167s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/ament_prefix_path.sh
+[15.167s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/ament_prefix_path.dsv
+[15.168s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/path.sh
+[15.168s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/path.dsv
+[15.168s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.bash
+[15.168s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.sh
+[15.168s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.zsh
+[15.168s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.dsv
+[15.168s] -- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/package.dsv
+[15.169s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/packages/merge_pointclouds
+[15.169s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/cmake/merge_pointcloudsConfig.cmake
+[15.169s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/cmake/merge_pointcloudsConfig-version.cmake
+[15.169s] -- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/package.xml
+[15.171s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds

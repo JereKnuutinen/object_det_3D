@@ -22,15 +22,15 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/include"
+  "/opt/ros/foxy/include"
   "/usr/include/vtk-7.1"
   "/usr/include/freetype2"
+  "/home/mlemsalu/walker_ws/install/custom_msgs/include"
   "/usr/include/pcl-1.10"
   "/usr/include/eigen3"
   "/usr/include/ni"
   "/usr/include/openni2"
-  "/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/include"
-  "/opt/ros/foxy/include"
-  "/home/mlemsalu/walker_ws/install/custom_msgs/include"
   )
 
 # Targets to which this target links.

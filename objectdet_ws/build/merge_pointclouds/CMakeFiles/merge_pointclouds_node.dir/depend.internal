@@ -653,11 +653,13 @@ CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o
  /usr/include/pcl-1.10/pcl/Vertices.h
  /usr/include/pcl-1.10/pcl/cloud_iterator.h
  /usr/include/pcl-1.10/pcl/common/centroid.h
+ /usr/include/pcl-1.10/pcl/common/common.h
  /usr/include/pcl-1.10/pcl/common/concatenate.h
  /usr/include/pcl-1.10/pcl/common/copy_point.h
  /usr/include/pcl-1.10/pcl/common/eigen.h
  /usr/include/pcl-1.10/pcl/common/impl/accumulators.hpp
  /usr/include/pcl-1.10/pcl/common/impl/centroid.hpp
+ /usr/include/pcl-1.10/pcl/common/impl/common.hpp
  /usr/include/pcl-1.10/pcl/common/impl/copy_point.hpp
  /usr/include/pcl-1.10/pcl/common/impl/eigen.hpp
  /usr/include/pcl-1.10/pcl/common/impl/io.hpp
@@ -669,8 +671,10 @@ CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o
  /usr/include/pcl-1.10/pcl/conversions.h
  /usr/include/pcl-1.10/pcl/correspondence.h
  /usr/include/pcl-1.10/pcl/exceptions.h
+ /usr/include/pcl-1.10/pcl/filters/approximate_voxel_grid.h
  /usr/include/pcl-1.10/pcl/filters/boost.h
  /usr/include/pcl-1.10/pcl/filters/filter.h
+ /usr/include/pcl-1.10/pcl/filters/impl/approximate_voxel_grid.hpp
  /usr/include/pcl-1.10/pcl/filters/impl/filter.hpp
  /usr/include/pcl-1.10/pcl/for_each_type.h
  /usr/include/pcl-1.10/pcl/impl/cloud_iterator.hpp

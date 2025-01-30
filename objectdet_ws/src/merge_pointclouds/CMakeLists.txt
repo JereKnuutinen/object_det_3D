@@ -20,14 +20,15 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(custom_msgs REQUIRED)
+find_package(Eigen3 REQUIRED)
 find_package(tf2_ros REQUIRED)
-include_directories(${tf2_ros_INCLUDE_DIRS})
-find_package(PCL REQUIRED COMPONENTS common io)
-find_package(pcl_conversions REQUIRED)
+find_package(tf2_eigen REQUIRED)
 
+include_directories(${tf2_ros_INCLUDE_DIRS})
+find_package(PCL REQUIRED COMPONENTS common io filters)
+find_package(pcl_conversions REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(Eigen3 REQUIRED)
 add_executable(merge_pointclouds_node src/merge_pointclouds_node.cpp)
 
 
@@ -37,13 +38,16 @@ ament_target_dependencies(merge_pointclouds_node
   "custom_msgs"
   "tf2"
   "tf2_ros"
+  "tf2_eigen"
   "geometry_msgs"
   "sensor_msgs"
   "pcl_conversions"
   "PCL"
 )
 
+#target_link_libraries(merge_pointclouds_node tf2_eigen)
 target_include_directories(merge_pointclouds_node PUBLIC ${EIGEN3_INCLUDE_DIR})
+target_link_libraries(merge_pointclouds_node ${PCL_LIBRARIES})
 target_include_directories(merge_pointclouds_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)

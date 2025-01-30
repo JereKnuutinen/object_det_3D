@@ -1,0 +1,288 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (gnss_pose_estimation_node) JobQueued: {'identifier': 'gnss_pose_estimation_node', 'dependencies': OrderedDict()}
+[0.000116] (merge_pointclouds) JobQueued: {'identifier': 'merge_pointclouds', 'dependencies': OrderedDict()}
+[0.000157] (gnss_pose_estimation_node) JobStarted: {'identifier': 'gnss_pose_estimation_node'}
+[0.005824] (merge_pointclouds) JobStarted: {'identifier': 'merge_pointclouds'}
+[0.010439] (gnss_pose_estimation_node) JobProgress: {'identifier': 'gnss_pose_estimation_node', 'progress': 'cmake'}
+[0.012635] (gnss_pose_estimation_node) JobProgress: {'identifier': 'gnss_pose_estimation_node', 'progress': 'build'}
+[0.012825] (gnss_pose_estimation_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node', '--', '-j12', '-l12'], 'cwd': '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mlemsalu'), ('LC_TIME', 'fi_FI.UTF-8'), ('SSH_AGENT_PID', '2010'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/mlemsalu'), ('OLDPWD', '/home/mlemsalu/object_det_3D'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('MANAGERPID', '1907'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mlemsalu'), ('JOURNAL_STREAM', '9:51456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'mlemsalu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/mlemsalu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mlemsalu-OMEN-by-HP:@/tmp/.ICE-unix/2046,unix/mlemsalu-OMEN-by-HP:/tmp/.ICE-unix/2046'), ('INVOCATION_ID', '2bfc157b227f4bcbb1d7059333d0ff80'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25d9e084_3598_44bd_b7e1_40145aaf1d88'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XCURSOR_PATH', '/usr/share/icons'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-12.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.018395] (merge_pointclouds) JobProgress: {'identifier': 'merge_pointclouds', 'progress': 'cmake'}
+[0.018721] (merge_pointclouds) JobProgress: {'identifier': 'merge_pointclouds', 'progress': 'build'}
+[0.018969] (merge_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds', '--', '-j12', '-l12'], 'cwd': '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mlemsalu'), ('LC_TIME', 'fi_FI.UTF-8'), ('SSH_AGENT_PID', '2010'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/mlemsalu'), ('OLDPWD', '/home/mlemsalu/object_det_3D'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('MANAGERPID', '1907'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mlemsalu'), ('JOURNAL_STREAM', '9:51456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'mlemsalu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/mlemsalu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mlemsalu-OMEN-by-HP:@/tmp/.ICE-unix/2046,unix/mlemsalu-OMEN-by-HP:/tmp/.ICE-unix/2046'), ('INVOCATION_ID', '2bfc157b227f4bcbb1d7059333d0ff80'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25d9e084_3598_44bd_b7e1_40145aaf1d88'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XCURSOR_PATH', '/usr/share/icons'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-12.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.045532] (merge_pointclouds) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.063295] (merge_pointclouds) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.077934] (gnss_pose_estimation_node) StdoutLine: {'line': b'[100%] Built target gnss_pose_estimation_node\n'}
+[0.087353] (gnss_pose_estimation_node) CommandEnded: {'returncode': 0}
+[0.099454] (-) TimerEvent: {}
+[0.108655] (gnss_pose_estimation_node) JobProgress: {'identifier': 'gnss_pose_estimation_node', 'progress': 'install'}
+[0.119233] (gnss_pose_estimation_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node'], 'cwd': '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mlemsalu'), ('LC_TIME', 'fi_FI.UTF-8'), ('SSH_AGENT_PID', '2010'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/mlemsalu'), ('OLDPWD', '/home/mlemsalu/object_det_3D'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('MANAGERPID', '1907'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mlemsalu'), ('JOURNAL_STREAM', '9:51456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'mlemsalu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/mlemsalu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mlemsalu-OMEN-by-HP:@/tmp/.ICE-unix/2046,unix/mlemsalu-OMEN-by-HP:/tmp/.ICE-unix/2046'), ('INVOCATION_ID', '2bfc157b227f4bcbb1d7059333d0ff80'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25d9e084_3598_44bd_b7e1_40145aaf1d88'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XCURSOR_PATH', '/usr/share/icons'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mlemsalu/object_det_3D/objectdet_ws/build/gnss_pose_estimation_node'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-12.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.130571] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.130948] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/lib/gnss_pose_estimation_node/gnss_pose_estimation_node\n'}
+[0.131321] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/package_run_dependencies/gnss_pose_estimation_node\n'}
+[0.131511] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/parent_prefix_path/gnss_pose_estimation_node\n'}
+[0.131612] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/ament_prefix_path.sh\n'}
+[0.131720] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/ament_prefix_path.dsv\n'}
+[0.131872] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/path.sh\n'}
+[0.131992] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/environment/path.dsv\n'}
+[0.132108] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.bash\n'}
+[0.132204] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.sh\n'}
+[0.132325] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.zsh\n'}
+[0.132445] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/local_setup.dsv\n'}
+[0.132539] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/package.dsv\n'}
+[0.132632] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/ament_index/resource_index/packages/gnss_pose_estimation_node\n'}
+[0.132725] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/cmake/gnss_pose_estimation_nodeConfig.cmake\n'}
+[0.132818] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/cmake/gnss_pose_estimation_nodeConfig-version.cmake\n'}
+[0.132939] (gnss_pose_estimation_node) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/gnss_pose_estimation_node/share/gnss_pose_estimation_node/package.xml\n'}
+[0.134060] (gnss_pose_estimation_node) CommandEnded: {'returncode': 0}
+[0.170408] (gnss_pose_estimation_node) JobEnded: {'identifier': 'gnss_pose_estimation_node', 'rc': 0}
+[0.199556] (-) TimerEvent: {}
+[0.242737] (merge_pointclouds) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.269976] (merge_pointclouds) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.272866] (merge_pointclouds) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299666] (-) TimerEvent: {}
+[0.358210] (merge_pointclouds) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399771] (-) TimerEvent: {}
+[0.404697] (merge_pointclouds) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.405989] (merge_pointclouds) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499891] (-) TimerEvent: {}
+[0.543973] (merge_pointclouds) StdoutLine: {'line': b'-- Found custom_msgs: 0.0.0 (/home/mlemsalu/walker_ws/install/custom_msgs/share/custom_msgs/cmake)\n'}
+[0.599995] (-) TimerEvent: {}
+[0.700222] (-) TimerEvent: {}
+[0.800456] (-) TimerEvent: {}
+[0.900687] (-) TimerEvent: {}
+[0.901025] (merge_pointclouds) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.000801] (-) TimerEvent: {}
+[1.101045] (-) TimerEvent: {}
+[1.201278] (-) TimerEvent: {}
+[1.222422] (merge_pointclouds) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[1.235744] (merge_pointclouds) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.253030] (merge_pointclouds) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.258253] (merge_pointclouds) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.258474] (merge_pointclouds) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.258683] (merge_pointclouds) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.301400] (-) TimerEvent: {}
+[1.313325] (merge_pointclouds) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.313446] (merge_pointclouds) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.313510] (merge_pointclouds) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.313570] (merge_pointclouds) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.313627] (merge_pointclouds) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.313683] (merge_pointclouds) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.313738] (merge_pointclouds) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.313793] (merge_pointclouds) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.313847] (merge_pointclouds) StdoutLine: {'line': b'\n'}
+[1.314381] (merge_pointclouds) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.314468] (merge_pointclouds) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.314531] (merge_pointclouds) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.314590] (merge_pointclouds) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.314647] (merge_pointclouds) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.314702] (merge_pointclouds) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.314756] (merge_pointclouds) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.314811] (merge_pointclouds) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.314865] (merge_pointclouds) StdoutLine: {'line': b'\n'}
+[1.315105] (merge_pointclouds) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.315207] (merge_pointclouds) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.315287] (merge_pointclouds) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.315459] (merge_pointclouds) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.315544] (merge_pointclouds) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.315607] (merge_pointclouds) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.315669] (merge_pointclouds) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.315727] (merge_pointclouds) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.315783] (merge_pointclouds) StdoutLine: {'line': b'\n'}
+[1.315848] (merge_pointclouds) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.315905] (merge_pointclouds) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.315961] (merge_pointclouds) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.316018] (merge_pointclouds) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.316074] (merge_pointclouds) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.316131] (merge_pointclouds) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.316187] (merge_pointclouds) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.316242] (merge_pointclouds) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.316297] (merge_pointclouds) StdoutLine: {'line': b'\n'}
+[1.330856] (merge_pointclouds) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.342788] (merge_pointclouds) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.343260] (merge_pointclouds) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.343726] (merge_pointclouds) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.344291] (merge_pointclouds) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.344766] (merge_pointclouds) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.345328] (merge_pointclouds) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.345861] (merge_pointclouds) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.347345] (merge_pointclouds) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[1.401507] (-) TimerEvent: {}
+[1.501738] (-) TimerEvent: {}
+[1.570982] (merge_pointclouds) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.601852] (-) TimerEvent: {}
+[1.621030] (merge_pointclouds) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.621764] (merge_pointclouds) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.622166] (merge_pointclouds) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/include>\n'}
+[1.622250] (merge_pointclouds) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.622718] (merge_pointclouds) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.622797] (merge_pointclouds) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.623174] (merge_pointclouds) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.623783] (merge_pointclouds) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.623862] (merge_pointclouds) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.624080] (merge_pointclouds) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.626969] (merge_pointclouds) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.676616] (merge_pointclouds) StdoutLine: {'line': b'-- Generating done\n'}
+[1.678386] (merge_pointclouds) StdoutLine: {'line': b'-- Build files have been written to: /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds\n'}
+[1.701981] (-) TimerEvent: {}
+[1.705032] (merge_pointclouds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target merge_pointclouds_node\x1b[0m\n'}
+[1.729151] (merge_pointclouds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o\x1b[0m\n'}
+[1.802102] (-) TimerEvent: {}
+[1.902338] (-) TimerEvent: {}
+[2.002580] (-) TimerEvent: {}
+[2.102830] (-) TimerEvent: {}
+[2.203084] (-) TimerEvent: {}
+[2.303354] (-) TimerEvent: {}
+[2.403628] (-) TimerEvent: {}
+[2.503892] (-) TimerEvent: {}
+[2.604144] (-) TimerEvent: {}
+[2.704393] (-) TimerEvent: {}
+[2.804675] (-) TimerEvent: {}
+[2.904962] (-) TimerEvent: {}
+[3.005218] (-) TimerEvent: {}
+[3.105486] (-) TimerEvent: {}
+[3.205760] (-) TimerEvent: {}
+[3.306011] (-) TimerEvent: {}
+[3.406266] (-) TimerEvent: {}
+[3.506517] (-) TimerEvent: {}
+[3.606762] (-) TimerEvent: {}
+[3.706986] (-) TimerEvent: {}
+[3.807292] (-) TimerEvent: {}
+[3.907546] (-) TimerEvent: {}
+[4.007802] (-) TimerEvent: {}
+[4.108056] (-) TimerEvent: {}
+[4.208310] (-) TimerEvent: {}
+[4.308562] (-) TimerEvent: {}
+[4.408816] (-) TimerEvent: {}
+[4.509046] (-) TimerEvent: {}
+[4.609298] (-) TimerEvent: {}
+[4.709557] (-) TimerEvent: {}
+[4.809838] (-) TimerEvent: {}
+[4.910154] (-) TimerEvent: {}
+[5.010401] (-) TimerEvent: {}
+[5.110655] (-) TimerEvent: {}
+[5.210914] (-) TimerEvent: {}
+[5.311168] (-) TimerEvent: {}
+[5.411425] (-) TimerEvent: {}
+[5.511682] (-) TimerEvent: {}
+[5.611931] (-) TimerEvent: {}
+[5.712180] (-) TimerEvent: {}
+[5.812433] (-) TimerEvent: {}
+[5.912695] (-) TimerEvent: {}
+[6.012969] (-) TimerEvent: {}
+[6.113224] (-) TimerEvent: {}
+[6.213480] (-) TimerEvent: {}
+[6.313736] (-) TimerEvent: {}
+[6.413983] (-) TimerEvent: {}
+[6.514238] (-) TimerEvent: {}
+[6.614495] (-) TimerEvent: {}
+[6.714750] (-) TimerEvent: {}
+[6.815003] (-) TimerEvent: {}
+[6.915259] (-) TimerEvent: {}
+[7.015514] (-) TimerEvent: {}
+[7.115761] (-) TimerEvent: {}
+[7.216012] (-) TimerEvent: {}
+[7.316266] (-) TimerEvent: {}
+[7.416525] (-) TimerEvent: {}
+[7.516786] (-) TimerEvent: {}
+[7.617041] (-) TimerEvent: {}
+[7.717294] (-) TimerEvent: {}
+[7.817542] (-) TimerEvent: {}
+[7.917797] (-) TimerEvent: {}
+[8.018053] (-) TimerEvent: {}
+[8.118320] (-) TimerEvent: {}
+[8.218572] (-) TimerEvent: {}
+[8.318830] (-) TimerEvent: {}
+[8.419086] (-) TimerEvent: {}
+[8.519379] (-) TimerEvent: {}
+[8.619644] (-) TimerEvent: {}
+[8.719919] (-) TimerEvent: {}
+[8.820192] (-) TimerEvent: {}
+[8.920446] (-) TimerEvent: {}
+[9.020699] (-) TimerEvent: {}
+[9.120951] (-) TimerEvent: {}
+[9.221187] (-) TimerEvent: {}
+[9.321449] (-) TimerEvent: {}
+[9.421703] (-) TimerEvent: {}
+[9.521956] (-) TimerEvent: {}
+[9.622245] (-) TimerEvent: {}
+[9.722499] (-) TimerEvent: {}
+[9.822757] (-) TimerEvent: {}
+[9.923011] (-) TimerEvent: {}
+[10.023263] (-) TimerEvent: {}
+[10.123517] (-) TimerEvent: {}
+[10.223775] (-) TimerEvent: {}
+[10.324028] (-) TimerEvent: {}
+[10.424284] (-) TimerEvent: {}
+[10.524557] (-) TimerEvent: {}
+[10.624809] (-) TimerEvent: {}
+[10.725069] (-) TimerEvent: {}
+[10.825320] (-) TimerEvent: {}
+[10.925571] (-) TimerEvent: {}
+[11.025824] (-) TimerEvent: {}
+[11.126076] (-) TimerEvent: {}
+[11.226330] (-) TimerEvent: {}
+[11.326585] (-) TimerEvent: {}
+[11.426839] (-) TimerEvent: {}
+[11.527091] (-) TimerEvent: {}
+[11.627346] (-) TimerEvent: {}
+[11.727601] (-) TimerEvent: {}
+[11.827852] (-) TimerEvent: {}
+[11.928104] (-) TimerEvent: {}
+[12.028352] (-) TimerEvent: {}
+[12.128601] (-) TimerEvent: {}
+[12.228851] (-) TimerEvent: {}
+[12.329073] (-) TimerEvent: {}
+[12.429324] (-) TimerEvent: {}
+[12.529579] (-) TimerEvent: {}
+[12.629829] (-) TimerEvent: {}
+[12.730083] (-) TimerEvent: {}
+[12.830349] (-) TimerEvent: {}
+[12.930601] (-) TimerEvent: {}
+[13.030855] (-) TimerEvent: {}
+[13.131105] (-) TimerEvent: {}
+[13.231360] (-) TimerEvent: {}
+[13.331612] (-) TimerEvent: {}
+[13.431865] (-) TimerEvent: {}
+[13.532129] (-) TimerEvent: {}
+[13.632355] (-) TimerEvent: {}
+[13.732580] (-) TimerEvent: {}
+[13.832800] (-) TimerEvent: {}
+[13.933059] (-) TimerEvent: {}
+[14.033306] (-) TimerEvent: {}
+[14.133560] (-) TimerEvent: {}
+[14.233814] (-) TimerEvent: {}
+[14.334070] (-) TimerEvent: {}
+[14.434322] (-) TimerEvent: {}
+[14.534572] (-) TimerEvent: {}
+[14.556678] (merge_pointclouds) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable merge_pointclouds_node\x1b[0m\n'}
+[14.634695] (-) TimerEvent: {}
+[14.734959] (-) TimerEvent: {}
+[14.835259] (-) TimerEvent: {}
+[14.935524] (-) TimerEvent: {}
+[15.035831] (-) TimerEvent: {}
+[15.133038] (merge_pointclouds) StdoutLine: {'line': b'[100%] Built target merge_pointclouds_node\n'}
+[15.135902] (-) TimerEvent: {}
+[15.143340] (merge_pointclouds) CommandEnded: {'returncode': 0}
+[15.163426] (merge_pointclouds) JobProgress: {'identifier': 'merge_pointclouds', 'progress': 'install'}
+[15.163610] (merge_pointclouds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds'], 'cwd': '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mlemsalu'), ('LC_TIME', 'fi_FI.UTF-8'), ('SSH_AGENT_PID', '2010'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-12.1/lib64:'), ('HOME', '/home/mlemsalu'), ('OLDPWD', '/home/mlemsalu/object_det_3D'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fi_FI.UTF-8'), ('MANAGERPID', '1907'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mlemsalu'), ('JOURNAL_STREAM', '9:51456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'mlemsalu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-12.1/bin:/home/mlemsalu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mlemsalu-OMEN-by-HP:@/tmp/.ICE-unix/2046,unix/mlemsalu-OMEN-by-HP:/tmp/.ICE-unix/2046'), ('INVOCATION_ID', '2bfc157b227f4bcbb1d7059333d0ff80'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fi_FI.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/25d9e084_3598_44bd_b7e1_40145aaf1d88'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fi_FI.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.81'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fi_FI.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XCURSOR_PATH', '/usr/share/icons'), ('LC_MEASUREMENT', 'fi_FI.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'fi_FI.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-12.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fi_FI.UTF-8'), ('LC_PAPER', 'fi_FI.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[15.171384] (merge_pointclouds) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[15.171668] (merge_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/lib/merge_pointclouds/merge_pointclouds_node\n'}
+[15.172585] (merge_pointclouds) StdoutLine: {'line': b'-- Set runtime path of "/home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/lib/merge_pointclouds/merge_pointclouds_node" to ""\n'}
+[15.172743] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/package_run_dependencies/merge_pointclouds\n'}
+[15.172917] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/parent_prefix_path/merge_pointclouds\n'}
+[15.173062] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/ament_prefix_path.sh\n'}
+[15.173189] (merge_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/ament_prefix_path.dsv\n'}
+[15.173339] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/path.sh\n'}
+[15.173466] (merge_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/environment/path.dsv\n'}
+[15.173603] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.bash\n'}
+[15.173745] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.sh\n'}
+[15.173861] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.zsh\n'}
+[15.173993] (merge_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/local_setup.dsv\n'}
+[15.174123] (merge_pointclouds) StdoutLine: {'line': b'-- Installing: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/package.dsv\n'}
+[15.174256] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/ament_index/resource_index/packages/merge_pointclouds\n'}
+[15.174385] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/cmake/merge_pointcloudsConfig.cmake\n'}
+[15.174494] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/cmake/merge_pointcloudsConfig-version.cmake\n'}
+[15.174603] (merge_pointclouds) StdoutLine: {'line': b'-- Up-to-date: /home/mlemsalu/object_det_3D/objectdet_ws/install/merge_pointclouds/share/merge_pointclouds/package.xml\n'}
+[15.176297] (merge_pointclouds) CommandEnded: {'returncode': 0}
+[15.206420] (merge_pointclouds) JobEnded: {'identifier': 'merge_pointclouds', 'rc': 0}
+[15.207117] (-) EventReactorShutdown: {}

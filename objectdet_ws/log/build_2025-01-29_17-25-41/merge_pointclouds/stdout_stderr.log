@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target merge_pointclouds_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o[0m
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In member function ‘[01m[Kbool MergePcNode::transformToGlobalFrame(const Ptr&, pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:106:49:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformToEigen[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  106 |         Eigen::Affine3d global_transform = tf2::[01;31m[KtransformToEigen[m[K(transform_stamped.transform);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

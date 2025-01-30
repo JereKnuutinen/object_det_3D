@@ -35,6 +35,12 @@ tf2_geometry_msgs/tf2_geometry_msgs.h
 -
 chrono
 -
+tf2_ros/transform_listener.h
+-
+tf2_ros/buffer.h
+-
+pcl/filters/approximate_voxel_grid.h
+-
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
@@ -6882,6 +6888,14 @@ pcl/common/impl/accumulators.hpp
 pcl/common/impl/centroid.hpp
 -
 
+/usr/include/pcl-1.10/pcl/common/common.h
+pcl/pcl_base.h
+-
+cfloat
+-
+pcl/common/impl/common.hpp
+-
+
 /usr/include/pcl-1.10/pcl/common/concatenate.h
 pcl/conversions.h
 -
@@ -6940,6 +6954,12 @@ pcl/common/centroid.h
 pcl/conversions.h
 -
 boost/mpl/size.hpp
+-
+
+/usr/include/pcl-1.10/pcl/common/impl/common.hpp
+pcl/point_types.h
+-
+pcl/common/common.h
 -
 
 /usr/include/pcl-1.10/pcl/common/impl/copy_point.hpp
@@ -7066,6 +7086,14 @@ pcl/pcl_macros.h
 boost/current_function.hpp
 -
 
+/usr/include/pcl-1.10/pcl/filters/approximate_voxel_grid.h
+pcl/filters/boost.h
+-
+pcl/filters/filter.h
+-
+pcl/filters/impl/approximate_voxel_grid.hpp
+-
+
 /usr/include/pcl-1.10/pcl/filters/boost.h
 boost/random.hpp
 -
@@ -7098,6 +7126,14 @@ cfloat
 pcl/PointIndices.h
 -
 pcl/filters/impl/filter.hpp
+-
+
+/usr/include/pcl-1.10/pcl/filters/impl/approximate_voxel_grid.hpp
+pcl/common/common.h
+-
+pcl/common/io.h
+-
+pcl/filters/approximate_voxel_grid.h
 -
 
 /usr/include/pcl-1.10/pcl/filters/impl/filter.hpp

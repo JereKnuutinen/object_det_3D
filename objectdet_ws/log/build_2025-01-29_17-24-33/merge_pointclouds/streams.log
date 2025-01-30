@@ -1,0 +1,82 @@
+[0.019s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[0.051s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.269s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.429s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.562s] -- Found custom_msgs: 0.0.0 (/home/mlemsalu/walker_ws/install/custom_msgs/share/custom_msgs/cmake)
+[0.878s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.171s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.187s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.208s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[1.214s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[1.214s] ** WARNING ** io features related to pcap will be disabled
+[1.214s] ** WARNING ** io features related to png will be disabled
+[1.269s] -- The imported target "vtkParseOGLExt" references the file
+[1.269s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.269s] but this file does not exist.  Possible reasons include:
+[1.269s] * The file was deleted, renamed, or moved to another location.
+[1.269s] * An install or uninstall procedure did not complete successfully.
+[1.269s] * The installation package was faulty and contained
+[1.269s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.269s] but not all the files it references.
+[1.269s] 
+[1.270s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.270s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.270s] but this file does not exist.  Possible reasons include:
+[1.270s] * The file was deleted, renamed, or moved to another location.
+[1.270s] * An install or uninstall procedure did not complete successfully.
+[1.270s] * The installation package was faulty and contained
+[1.270s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.270s] but not all the files it references.
+[1.270s] 
+[1.271s] -- The imported target "vtk" references the file
+[1.271s]    "/usr/bin/vtk"
+[1.271s] but this file does not exist.  Possible reasons include:
+[1.271s] * The file was deleted, renamed, or moved to another location.
+[1.271s] * An install or uninstall procedure did not complete successfully.
+[1.271s] * The installation package was faulty and contained
+[1.271s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.271s] but not all the files it references.
+[1.271s] 
+[1.271s] -- The imported target "pvtk" references the file
+[1.272s]    "/usr/bin/pvtk"
+[1.272s] but this file does not exist.  Possible reasons include:
+[1.272s] * The file was deleted, renamed, or moved to another location.
+[1.272s] * An install or uninstall procedure did not complete successfully.
+[1.272s] * The installation package was faulty and contained
+[1.272s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.272s] but not all the files it references.
+[1.272s] 
+[1.285s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.285s] -- looking for PCL_COMMON
+[1.286s] -- looking for PCL_OCTREE
+[1.287s] -- looking for PCL_IO
+[1.288s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.493s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.551s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.552s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.552s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/include>
+[1.552s] -- Configured cppcheck exclude dirs and/or files: 
+[1.553s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.553s] -- Configured cpplint exclude dirs and/or files: 
+[1.554s] -- Added test 'lint_cmake' to check CMake code style
+[1.555s] -- Added test 'uncrustify' to check C / C++ code style
+[1.555s] -- Configured uncrustify additional arguments: 
+[1.555s] -- Added test 'xmllint' to check XML markup files
+[1.559s] -- Configuring done
+[1.590s] -- Generating done
+[1.592s] -- Build files have been written to: /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds
+[1.624s] [35m[1mScanning dependencies of target merge_pointclouds_node[0m
+[1.683s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o[0m
+[3.609s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Ktf_conversions/tf_eigen.h: No such file or directory
+[3.609s]    20 | #include [01;31m[K<tf_conversions/tf_eigen.h>[m[K
+[3.609s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.609s] compilation terminated.
+[3.634s] make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+[3.635s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+[3.635s] make: *** [Makefile:141: all] Error 2
+[3.637s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12

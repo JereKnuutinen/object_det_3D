@@ -340,6 +340,15 @@ PCL_COMMON_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_common.so
 //The directory containing a CMake configuration file for PCL.
 PCL_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/pcl
 
+//path to filters headers
+PCL_FILTERS_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
+
+//path to pcl_filters library
+PCL_FILTERS_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_filters.so
+
+//path to pcl_filters library debug
+PCL_FILTERS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_filters.so
+
 //path to io headers
 PCL_IO_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
 
@@ -349,6 +358,15 @@ PCL_IO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_io.so
 //path to pcl_io library debug
 PCL_IO_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_io.so
 
+//path to kdtree headers
+PCL_KDTREE_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
+
+//path to pcl_kdtree library
+PCL_KDTREE_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+
+//path to pcl_kdtree library debug
+PCL_KDTREE_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+
 //path to octree headers
 PCL_OCTREE_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
 
@@ -357,6 +375,24 @@ PCL_OCTREE_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_octree.so
 
 //path to pcl_octree library debug
 PCL_OCTREE_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_octree.so
+
+//path to sample_consensus headers
+PCL_SAMPLE_CONSENSUS_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
+
+//path to pcl_sample_consensus library
+PCL_SAMPLE_CONSENSUS_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+
+//path to pcl_sample_consensus library debug
+PCL_SAMPLE_CONSENSUS_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+
+//path to search headers
+PCL_SEARCH_INCLUDE_DIR:PATH=/usr/include/pcl-1.10
+
+//path to pcl_search library
+PCL_SEARCH_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_search.so
+
+//path to pcl_search library debug
+PCL_SEARCH_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libpcl_search.so
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
@@ -679,6 +715,9 @@ std_msgs_DIR:PATH=/opt/ros/foxy/share/std_msgs/cmake
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/foxy/share/tf2/cmake
 
+//The directory containing a CMake configuration file for tf2_eigen.
+tf2_eigen_DIR:PATH=/opt/ros/foxy/share/tf2_eigen/cmake
+
 //The directory containing a CMake configuration file for tf2_geometry_msgs.
 tf2_geometry_msgs_DIR:PATH=/opt/ros/foxy/share/tf2_geometry_msgs/cmake
 
@@ -901,13 +940,21 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenNI2:INTERNAL=[/usr/lib/libOpenNI2.so][/usr/incl
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v1.1.1f()]
 //Details about finding PCL
-FIND_PACKAGE_MESSAGE_DETAILS_PCL:INTERNAL=[pcl_common;pcl_octree;pcl_io;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2][/usr/include/pcl-1.10;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2;/usr/include/vtk-7.1;/usr/include/freetype2;/usr/include/x86_64-linux-gnu][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_PCL:INTERNAL=[pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN][/usr/include/pcl-1.10;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2;/usr/include/vtk-7.1;/usr/include/freetype2;/usr/include/x86_64-linux-gnu][v()]
 //Details about finding PCL_COMMON
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_COMMON:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_common.so][/usr/include/pcl-1.10][v()]
+//Details about finding PCL_FILTERS
+FIND_PACKAGE_MESSAGE_DETAILS_PCL_FILTERS:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_filters.so][/usr/include/pcl-1.10][v()]
 //Details about finding PCL_IO
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_IO:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_io.so][/usr/include/pcl-1.10][v()]
+//Details about finding PCL_KDTREE
+FIND_PACKAGE_MESSAGE_DETAILS_PCL_KDTREE:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so][/usr/include/pcl-1.10][v()]
 //Details about finding PCL_OCTREE
 FIND_PACKAGE_MESSAGE_DETAILS_PCL_OCTREE:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_octree.so][/usr/include/pcl-1.10][v()]
+//Details about finding PCL_SAMPLE_CONSENSUS
+FIND_PACKAGE_MESSAGE_DETAILS_PCL_SAMPLE_CONSENSUS:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so][/usr/include/pcl-1.10][v()]
+//Details about finding PCL_SEARCH
+FIND_PACKAGE_MESSAGE_DETAILS_PCL_SEARCH:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpcl_search.so][/usr/include/pcl-1.10][v()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.8.10(3)]
 //Details about finding Threads
@@ -928,18 +975,42 @@ PCL_COMMON_INCLUDE_DIR-ADVANCED:INTERNAL=1
 PCL_COMMON_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_COMMON_LIBRARY_DEBUG
 PCL_COMMON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_FILTERS_INCLUDE_DIR
+PCL_FILTERS_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_FILTERS_LIBRARY
+PCL_FILTERS_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_FILTERS_LIBRARY_DEBUG
+PCL_FILTERS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_IO_INCLUDE_DIR
 PCL_IO_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_IO_LIBRARY
 PCL_IO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_IO_LIBRARY_DEBUG
 PCL_IO_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_KDTREE_INCLUDE_DIR
+PCL_KDTREE_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_KDTREE_LIBRARY
+PCL_KDTREE_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_KDTREE_LIBRARY_DEBUG
+PCL_KDTREE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_OCTREE_INCLUDE_DIR
 PCL_OCTREE_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_OCTREE_LIBRARY
 PCL_OCTREE_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PCL_OCTREE_LIBRARY_DEBUG
 PCL_OCTREE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_SAMPLE_CONSENSUS_INCLUDE_DIR
+PCL_SAMPLE_CONSENSUS_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_SAMPLE_CONSENSUS_LIBRARY
+PCL_SAMPLE_CONSENSUS_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_SAMPLE_CONSENSUS_LIBRARY_DEBUG
+PCL_SAMPLE_CONSENSUS_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_SEARCH_INCLUDE_DIR
+PCL_SEARCH_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_SEARCH_LIBRARY
+PCL_SEARCH_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PCL_SEARCH_LIBRARY_DEBUG
+PCL_SEARCH_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 PC_EIGEN_CFLAGS:INTERNAL=-I/usr/include/eigen3
 PC_EIGEN_CFLAGS_I:INTERNAL=
 PC_EIGEN_CFLAGS_OTHER:INTERNAL=
