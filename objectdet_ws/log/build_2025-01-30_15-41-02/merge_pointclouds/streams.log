@@ -1,0 +1,56 @@
+[0.014s] Invoking command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target merge_pointclouds_node[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o[0m
+[4.946s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In constructor ‘[01m[KMergePcNode::MergePcNode()[m[K’:
+[4.946s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:53:112:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMergePcNode::create_subscription<geometry_msgs::msg::Pose>(const char [15], int, std::_Bind_helper<false, void (MergePcNode::*)(std::shared_ptr<geometry_msgs::msg::Pose_<std::allocator<void> > >), MergePcNode*, const std::_Placeholder<1>&>::type, rclcpp::QoS&)[m[K’
+[4.946s]    53 | cNode::poseCallback, this, std::placeholders::_1), video_qos[01;31m[K)[m[K;
+[4.946s]       |                                                             [01;31m[K^[m[K
+[4.946s] 
+[4.946s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.946s]                  from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:3[m[K:
+[4.946s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.946s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[4.946s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.947s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.947s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:53:112:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::QoS[m[K’ is not derived from ‘[01m[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>[m[K’
+[4.947s]    53 | cNode::poseCallback, this, std::placeholders::_1), video_qos[01;36m[K)[m[K;
+[4.947s]       |                                                             [01;36m[K^[m[K
+[4.947s] 
+[4.947s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:57:122:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMergePcNode::create_subscription<sensor_msgs::msg::PointCloud2>(const char [19], int, std::_Bind_helper<false, void (MergePcNode::*)(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >), MergePcNode*, const std::_Placeholder<1>&>::type, rclcpp::QoS&)[m[K’
+[4.948s]    57 | :pointCloudCallback, this, std::placeholders::_1), video_qos[01;31m[K)[m[K;
+[4.948s]       |                                                             [01;31m[K^[m[K
+[4.948s] 
+[4.948s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.948s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.948s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.948s]                  from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:3[m[K:
+[4.948s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.948s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[4.948s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.948s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.948s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:57:122:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::QoS[m[K’ is not derived from ‘[01m[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>[m[K’
+[4.948s]    57 | :pointCloudCallback, this, std::placeholders::_1), video_qos[01;36m[K)[m[K;
+[4.948s]       |                                                             [01;36m[K^[m[K
+[4.948s] 
+[4.948s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:60:123:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMergePcNode::create_subscription<sensor_msgs::msg::PointCloud2>(const char [19], int, std::_Bind_helper<false, void (MergePcNode::*)(std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >), MergePcNode*, const std::_Placeholder<1>&>::type, rclcpp::QoS&)[m[K’
+[4.948s]    60 | pointCloud2Callback, this, std::placeholders::_1), video_qos[01;31m[K)[m[K;
+[4.949s]       |                                                             [01;31m[K^[m[K
+[4.949s] 
+[4.949s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.949s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.949s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.949s]                  from [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:3[m[K:
+[4.949s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.949s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[4.949s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.949s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.949s] [01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:60:123:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::QoS[m[K’ is not derived from ‘[01m[Kconst rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>[m[K’
+[4.949s]    60 | pointCloud2Callback, this, std::placeholders::_1), video_qos[01;36m[K)[m[K;
+[4.949s]       |                                                             [01;36m[K^[m[K
+[4.949s] 
+[8.462s] make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+[8.462s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+[8.462s] make: *** [Makefile:141: all] Error 2
+[8.465s] Invoked command in '/home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mlemsalu/object_det_3D/objectdet_ws/build/merge_pointclouds -- -j12 -l12

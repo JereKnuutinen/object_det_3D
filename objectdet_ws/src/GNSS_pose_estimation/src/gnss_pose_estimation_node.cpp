@@ -27,7 +27,7 @@ public:
     GNSSPoseEstimationNode() : Node("gnss_pose_estimation_node")
     {
         gnss_subscriber_ = this->create_subscription<sensor_msgs::msg::NavSatFix>("/GNSS_messages_serial", 1, std::bind(&GNSSPoseEstimationNode::GNSSCallback, this, std::placeholders::_1));
-        imu_subscriber_ = this->create_subscription<sensor_msgs::msg::Imu>("/Imu_messages", 10, std::bind(&GNSSPoseEstimationNode::ImuCallback, this, std::placeholders::_1));
+        imu_subscriber_ = this->create_subscription<sensor_msgs::msg::Imu>("/Imu_messages", 1, std::bind(&GNSSPoseEstimationNode::ImuCallback, this, std::placeholders::_1));
         gnss_pose_publisher_ = this->create_publisher<geometry_msgs::msg::Pose>("/GNSS_pose_enu", 1);
         tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(this);
         first_time_here_ = true;
@@ -60,15 +60,18 @@ private:
     }
     /**
      * @brief Processes imu callback. Yaw angle is fixes so that it is counter clock wise and zero is towards east
+     * Originally yaw zero is towards north. for example in dataset 6 orig yaw: 2.255400 whereas the modified yaw: -0.684604
      * @param msg is incoming IMU message
      */
     void ImuCallback(const sensor_msgs::msg::Imu::SharedPtr msg)
     {
+        //RCLCPP_INFO(this->get_logger(), "orig yaw %f", msg->orientation_covariance[1]);
         double yawtemp = -msg->orientation_covariance[1] + M_PI/2.0;
         if (yawtemp > M_PI) {
-        	yawtemp = yawtemp - M_PI/2.0;
+        	yawtemp = yawtemp - M_PI*2.0;
         }
         yaw_ = yawtemp;
+        //RCLCPP_INFO(this->get_logger(), "corr yaw %f", yaw_);
         pitch_ =  -msg->orientation_covariance[2];
         roll_ =  msg->orientation_covariance[3];
         imu_received_ = true;

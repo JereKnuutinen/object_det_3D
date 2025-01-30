@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target merge_pointclouds_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o[0m
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In member function ‘[01m[Kvoid MergePcNode::mergePointClouds()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:104:37:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::lock_guard<std::mutex> lock[m[K’
+  104 |         std::lock_guard<std::mutex> [01;31m[Klock[m[K(pc_mutex_);
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:103:37:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::lock_guard<std::mutex> lock[m[K’ previously declared here
+  103 |         std::lock_guard<std::mutex> [01;36m[Klock[m[K(data_mutex_);
+      |                                     [01;36m[K^~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:104:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kpc_mutex_[m[K’ was not declared in this scope; did you mean ‘[01m[Kdata_mutex_[m[K’?
+  104 |         std::lock_guard<std::mutex> lock([01;31m[Kpc_mutex_[m[K);
+      |                                          [01;31m[K^~~~~~~~~[m[K
+      |                                          [32m[Kdata_mutex_[m[K
+make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

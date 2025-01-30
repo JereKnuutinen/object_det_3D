@@ -1,0 +1,14 @@
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In constructor ‘[01m[KMergePcNode::MergePcNode()[m[K’:
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:28:53:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMergePcNode[m[K’ does not have any field named ‘[01m[Ktf_buffer_[m[K’
+   28 |     MergePcNode() : Node("merge_pointclouds_node"), [01;31m[Ktf_buffer_[m[K(std::make_shared<tf2_ros::Buffer>(this->get_clock())),
+      |                                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:29:21:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMergePcNode[m[K’ does not have any field named ‘[01m[Ktf_listener_[m[K’
+   29 |                     [01;31m[Ktf_listener_[m[K(std::make_shared<tf2_ros::TransformListener>(*tf_buffer_))
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:29:80:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_buffer_[m[K’ was not declared in this scope
+   29 |         tf_listener_(std::make_shared<tf2_ros::TransformListener>(*[01;31m[Ktf_buffer_[m[K))
+      |                                                                    [01;31m[K^~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

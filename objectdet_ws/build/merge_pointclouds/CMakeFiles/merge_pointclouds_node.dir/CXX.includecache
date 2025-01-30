@@ -47,6 +47,8 @@ pcl/filters/voxel_grid.h
 -
 mutex
 -
+geometry_msgs/msg/pose.hpp
+/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/geometry_msgs/msg/pose.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
