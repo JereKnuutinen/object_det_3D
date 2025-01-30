@@ -105,7 +105,7 @@ private:
         if (!pc1_received_ || !pc2_received_) {
             return;
         }
-
+        int temp;
         // Create new point clouds for transformed and merged data
         pcl::PointCloud<pcl::PointXYZ>::Ptr transformed_pc1(new pcl::PointCloud<pcl::PointXYZ>);
         pcl::PointCloud<pcl::PointXYZ>::Ptr merged_pc(new pcl::PointCloud<pcl::PointXYZ>);
