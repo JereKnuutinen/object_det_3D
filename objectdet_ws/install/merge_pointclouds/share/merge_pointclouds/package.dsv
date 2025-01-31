@@ -1,8 +1,0 @@
-source;share/merge_pointclouds/hook/cmake_prefix_path.ps1
-source;share/merge_pointclouds/hook/cmake_prefix_path.dsv
-source;share/merge_pointclouds/hook/cmake_prefix_path.sh
-source;share/merge_pointclouds/local_setup.bash
-source;share/merge_pointclouds/local_setup.dsv
-source;share/merge_pointclouds/local_setup.ps1
-source;share/merge_pointclouds/local_setup.sh
-source;share/merge_pointclouds/local_setup.zsh
