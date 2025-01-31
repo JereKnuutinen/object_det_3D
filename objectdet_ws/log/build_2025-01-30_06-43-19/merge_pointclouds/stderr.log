@@ -1,8 +1,0 @@
-** WARNING ** io features related to pcap will be disabled
-** WARNING ** io features related to png will be disabled
-** WARNING ** io features related to libusb-1.0 will be disabled
-/usr/bin/ld: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o:(.data.rel.ro._ZTVN3pcl20ApproximateVoxelGridINS_8PointXYZEEE[_ZTVN3pcl20ApproximateVoxelGridINS_8PointXYZEEE]+0x48): undefined reference to `pcl::ApproximateVoxelGrid<pcl::PointXYZ>::applyFilter(pcl::PointCloud<pcl::PointXYZ>&)'
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:232: merge_pointclouds_node] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

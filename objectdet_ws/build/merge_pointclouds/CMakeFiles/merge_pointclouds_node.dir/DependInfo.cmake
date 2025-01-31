@@ -26,7 +26,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/foxy/include"
   "/usr/include/vtk-7.1"
   "/usr/include/freetype2"
-  "/home/mlemsalu/walker_ws/install/custom_msgs/include"
   "/usr/include/pcl-1.10"
   "/usr/include/eigen3"
   "/usr/include/ni"

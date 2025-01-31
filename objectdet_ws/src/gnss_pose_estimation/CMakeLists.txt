@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(merge_pointclouds)
+project(gnss_pose_estimation)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -19,34 +19,33 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(Eigen3 REQUIRED)
 find_package(tf2_ros REQUIRED)
-find_package(tf2_eigen REQUIRED)
-
 include_directories(${tf2_ros_INCLUDE_DIRS})
-find_package(PCL REQUIRED COMPONENTS common io filters)
+find_package(PCL REQUIRED COMPONENTS common io)
 find_package(pcl_conversions REQUIRED)
+
 find_package(geometry_msgs REQUIRED)
+find_package(visualization_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-add_executable(merge_pointclouds_node src/merge_pointclouds_node.cpp)
+find_package(Eigen3 REQUIRED)
+add_executable(gnss_pose_estimation_node src/gnss_pose_estimation_node.cpp)
 
 
-ament_target_dependencies(merge_pointclouds_node
+ament_target_dependencies(gnss_pose_estimation_node
   "rclcpp"
   "std_msgs"
   "tf2"
   "tf2_ros"
-  "tf2_eigen"
   "geometry_msgs"
   "sensor_msgs"
   "pcl_conversions"
+  "visualization_msgs"
   "PCL"
 )
 
-#target_link_libraries(merge_pointclouds_node tf2_eigen)
-target_include_directories(merge_pointclouds_node PUBLIC ${EIGEN3_INCLUDE_DIR})
-target_link_libraries(merge_pointclouds_node ${PCL_LIBRARIES})
-target_include_directories(merge_pointclouds_node PUBLIC
+include_directories(/home/mlemsalu/object_det_3D/ll2enu)
+target_include_directories(gnss_pose_estimation_node PUBLIC ${EIGEN3_INCLUDE_DIR})
+target_include_directories(gnss_pose_estimation_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
@@ -55,7 +54,7 @@ target_include_directories(merge_pointclouds_node PUBLIC
 #  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 #  $<INSTALL_INTERFACE:include>)
 
-install(TARGETS merge_pointclouds_node
+install(TARGETS gnss_pose_estimation_node
   DESTINATION lib/${PROJECT_NAME})
 
  # install(TARGETS NMEA2000_node

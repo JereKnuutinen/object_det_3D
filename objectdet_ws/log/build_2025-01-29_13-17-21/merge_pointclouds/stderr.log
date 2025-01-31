@@ -1,8 +1,0 @@
-[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:[m[K In constructor ‘[01m[KMergePcNode::MergePcNode()[m[K’:
-[01m[K/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/src/merge_pointclouds_node.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[KLeft_pointcloud2_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[KLeft_pointcloud_subscriber_[m[K’?
-   46 |         [01;31m[KLeft_pointcloud2_subscriber_[m[K = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-      |         [32m[KLeft_pointcloud_subscriber_[m[K
-make[2]: *** [CMakeFiles/merge_pointclouds_node.dir/build.make:63: CMakeFiles/merge_pointclouds_node.dir/src/merge_pointclouds_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/merge_pointclouds_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

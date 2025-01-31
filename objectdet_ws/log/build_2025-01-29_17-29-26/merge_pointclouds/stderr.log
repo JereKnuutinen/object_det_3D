@@ -1,9 +1,0 @@
-** WARNING ** io features related to pcap will be disabled
-** WARNING ** io features related to png will be disabled
-** WARNING ** io features related to libusb-1.0 will be disabled
-CMake Error at CMakeLists.txt:48 (target_link_libraries):
-  Cannot specify link libraries for target "your_target" which is not built
-  by this project.
-
-
-make: *** [Makefile:266: cmake_check_build_system] Error 1

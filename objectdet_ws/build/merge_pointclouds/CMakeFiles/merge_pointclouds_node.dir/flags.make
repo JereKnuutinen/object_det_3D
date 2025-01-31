@@ -6,5 +6,5 @@ CXX_FLAGS =   -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -DvtkRenderingContext2D_AUTOINIT="1(vtkRenderingContextOpenGL2)" -DvtkRenderingCore_AUTOINIT="3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
 
-CXX_INCLUDES = -I/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/include -isystem /opt/ros/foxy/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/mlemsalu/walker_ws/install/custom_msgs/include -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 
+CXX_INCLUDES = -I/home/mlemsalu/object_det_3D/objectdet_ws/src/merge_pointclouds/include -isystem /opt/ros/foxy/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 
 

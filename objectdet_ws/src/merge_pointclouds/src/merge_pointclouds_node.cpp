@@ -28,10 +28,13 @@ public:
     MergePcNode() : Node("merge_pointclouds_node")
     {
 
-        rclcpp::QoS video_qos(10);
-        video_qos.keep_last(10);
-        video_qos.best_effort();
-        video_qos.durability_volatile();
+        // Set up the QoS profile for large point clouds
+        rclcpp::QoS qos_profile(100);  // Keep the last 100 messages
+        qos_profile.reliability(RMW_QOS_POLICY_RELIABILITY_BEST_EFFORT);
+        qos_profile.durability(RMW_QOS_POLICY_DURABILITY_VOLATILE);
+        qos_profile.history(RMW_QOS_POLICY_HISTORY_KEEP_LAST);
+        qos_profile.lifespan(std::chrono::seconds(0));  // No expiry
+        qos_profile.liveliness(RMW_QOS_POLICY_LIVELINESS_AUTOMATIC);
 
         GNSS_T_left = Eigen::Matrix4f::Identity();
         GNSS_T_left <<  0.9151, -0.2635, 0.27, 0.98,
@@ -50,20 +53,20 @@ public:
 
         // Subscribe to the GNSS pose in the map frame
         transform_sub_ = this->create_subscription<geometry_msgs::msg::Pose>(
-            "/GNSS_pose_enu", video_qos, std::bind(&MergePcNode::poseCallback, this, std::placeholders::_1));
+            "/GNSS_pose_enu", 10, std::bind(&MergePcNode::poseCallback, this, std::placeholders::_1));
 
 
         right_pc_sub_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-            "/synced_pc_lidar_1", video_qos, std::bind(&MergePcNode::pointCloudCallback, this, std::placeholders::_1));
+            "/synced_pc_lidar_1", 10,std::bind(&MergePcNode::pointCloudCallback, this, std::placeholders::_1));
 
         left_pc_sub_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-            "/synced_pc_lidar_2", video_qos, std::bind(&MergePcNode::pointCloud2Callback, this, std::placeholders::_1));
+            "/synced_pc_lidar_2",10, std::bind(&MergePcNode::pointCloud2Callback, this, std::placeholders::_1));
 
-        global_pc_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>(
-        "/merged_global_pointcloud", video_qos);
+        global_pc_pub_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("/merged_global_pointcloud",qos_profile);
 
         timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&MergePcNode::mergePointClouds, this));
         voxel.setLeafSize(0.5f, 0.5f, 0.5f);
+        last_publish_time_ = rclcpp::Clock().now().seconds();
     }
 
 private:
@@ -105,7 +108,10 @@ private:
         if (!pc1_received_ || !pc2_received_) {
             return;
         }
-        int temp;
+
+        double now = rclcpp::Clock().now().seconds();
+
+
         // Create new point clouds for transformed and merged data
         pcl::PointCloud<pcl::PointXYZ>::Ptr transformed_pc1(new pcl::PointCloud<pcl::PointXYZ>);
         pcl::PointCloud<pcl::PointXYZ>::Ptr merged_pc(new pcl::PointCloud<pcl::PointXYZ>);
@@ -133,11 +139,15 @@ private:
             *global_merged_pc_ += *gnss_transformed_pc;
 
             // Publish
+            if ((now - last_publish_time_) < 1.0) {
+                return;
+            }
             sensor_msgs::msg::PointCloud2 output_msg;
             pcl::toROSMsg(*global_merged_pc_, output_msg);
             output_msg.header.frame_id = "map";
             output_msg.header.stamp = this->now();
             global_pc_pub_->publish(output_msg);
+            last_publish_time_ = now;
         }
     }
 
@@ -174,7 +184,7 @@ private:
 
     // Mutexes for thread safety
     std::mutex data_mutex_;  // Protects point cloud data and transformation matrix
-
+    double last_publish_time_;  // Store last publish time
 };
 
 int main(int argc, char **argv)
